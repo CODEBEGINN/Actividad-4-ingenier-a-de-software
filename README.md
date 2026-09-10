@@ -34,6 +34,6 @@ PORT=3000
    ```
 2. Inicia el backend:
    ```bash
-   node api/status.js
-   ```
+   node server.js 
+```
 3. Abre el archivo `public/index.html` en tu navegador.
