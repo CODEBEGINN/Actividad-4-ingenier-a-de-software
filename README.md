@@ -26,6 +26,8 @@ MONGO_URI=mongodb+srv://<usuario>:<password>@cluster0.hvjqqxj.mongodb.net/test?r
 PORT=3000
 ```
 
+Puedes basarte en `back/.env.example` (sin datos sensibles) para crear tu propio `.env`.
+
 ## Ejecución Local
 
 1. Instala las dependencias del servidor:
@@ -34,6 +36,6 @@ PORT=3000
    ```
 2. Inicia el backend:
    ```bash
-   node server.js 
+node back/server.js
 ```
 3. Abre el archivo `public/index.html` en tu navegador.
